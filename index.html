@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>main page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+</head>
+<body>
+    <!-- start preload div -->
+
+    <div class="preload-div">
+        <img src="all-images/preload.webp" alt="">
+    </div>
+
+    <!-- end preload div -->
+
+
+    
+    <!-- start nav bar -->
+
+    <div class="navbar">
+        <div class="container">
+            <div class="logo-div">
+                <img src="all-images/logo.png" alt="" class="logo">
+            </div>
+            <ul class="links">
+               <li data-section="home" id="home">Home</li>
+                <li data-section="about-section" id="about">About Me</li>
+                <li data-section="team-section" id="team">Team</li>
+                <li data-section="images-section" id="images">Images</li>
+                <li data-section="projects-section" id="projects">Projects</li>
+                <li data-section="contact-section" id="contact">Contact</li>
+            </ul>
+
+            <div class="get-links-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- end nav bar -->
+
+
+    <!-- start home section -->
+
+    <div class="home section" data-class="home section" data-id="home" id="home">
+
+        <div class="top-circle-div circle-div" id="home">
+            <span class="circle"></span>
+        </div>
+        <div class="second top-circle-div circle-div" id="home">
+            <span class="circle"></span>
+        </div>
+
+        <div class="container">
+            <div class="home-text">
+                <p>Hello There. I'm</p>
+                <div class="name-div">
+                    <h2 class="name">Hazem Abdelhamid Radi</h2>
+                </div>
+                <h2>I'm <span class="words"></span></h2>
+
+                <a href=""><h5>Work Together</h5> <i class="fa-solid fa-handshake"></i></a>
+            </div>
+            <div class="home-img .js-tilt">
+                <div class="rotaition-circle"></div>
+                <div class="img-div">
+                    <img src="all-images/personal-removebg.png" alt="" class="personal-img">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- end home section -->
+
+
+    <!-- start about section -->
+
+    <div class="section about-section" data-class="section about-section" data-id="about" id="about">
+
+        <div class="top-circle-div circle-div" id="about">
+            <span class="circle"></span>
+        </div>
+        <div class="second top-circle-div circle-div" id="about">
+            <span class="circle"></span>
+        </div>
+
+        <div class="section-name">
+            <h2>About Me</h2>
+            <p>Who Am Me..?</p>
+        </div>
+
+
+        <div class="container">
+            <div class="about-img">
+                <img src="all-images/info-img.png" alt="">
+            </div>
+            <div class="about-info">
+                <div class="first info-div">
+                    <h2 style="--i:0">Who Am I..?</h2>
+                    <p style="--i:.2s">I am Hazem Abdel Hamid Radi, and I am from Minya, and I am 22 years old. I study at the Faculty of Engineering, Minya University, Department of Architecture, and I will graduate in 2023.</p>
+                </div>
+                <div class="second info-div">
+                    <h2  style="--i:.4s">What I Do..?</h2>
+                    <p  style="--i:.6s">working closely with a team of other professionals such as project managers , building service engineers , construction managers , quantity surveyors and architectural technologists and creating building designs and highly detailed drawings both by hand and by using specialist computer-aided design (CAD) applications.</p>
+
+                    <ul>
+                        <li  style="--i:.8s">Meet with clients to determine objectives and requirements for structures</li>
+                        <li  style="--i:1s">Give preliminary estimates on cost and construction time</li>
+                        <li  style="--i:1.2s">Prepare structure specifications</li>
+                        <li  style="--i:1.4s">Direct workers who prepare drawings and documents</li>
+                        <li  style="--i:1.6s">Prepare scaled drawings, either with computer software or by hand</li>
+                        <li  style="--i:1.8s">Prepare contract documents for building contractors</li>
+                        <li  style="--i:2s">Manage construction contracts</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="bottom-circle-div circle-div" id="about">
+            <span class="circle"></span>
+        </div>
+    </div>
+
+    <!-- end about section -->
+
+
+    <!-- start taam section -->
+
+    <div class="section team-section" data-class="section team-section" data-id="team" id="team">
+
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#141415" fill-opacity="1" d="M0,64L30,58.7C60,53,120,43,180,69.3C240,96,300,160,360,181.3C420,203,480,181,540,149.3C600,117,660,75,720,69.3C780,64,840,96,900,112C960,128,1020,128,1080,117.3C1140,107,1200,85,1260,74.7C1320,64,1380,64,1410,64L1440,64L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path></svg>
+
+        <div class="top-circle-div circle-div" id="team">
+            <span class="circle"></span>
+        </div>
+        <div class="second top-circle-div circle-div" id="team">
+            <span class="circle"></span>
+        </div>
+
+        <div class="section-name">
+            <h2>My Team</h2>
+            <p>You Can See My Team Here..</p>
+        </div>
+
+
+
+        <div class="container">
+
+            <div class="parent-of-cart" style="transition-delay: 1s;">
+                <div class="team-cart">
+                    <div class="face front">
+                        <img src="all-images/personal.jpg" alt="">
+                    </div>
+                    <div class="face back">
+                        <h2 class="name">Eng: Hazem Abdelhamid Radi</h2>
+                        <h2 class="age">Age: 22 Years</h2>
+                        <h2 class="adress">Adress: Bani Mazar - Al Minya - Egypt </h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="parent-of-cart" style="transition-delay: .5s;">
+                <div class="team-cart">
+                    <div class="face front">
+                        <img src="all-images/team.webp" alt="">
+                    </div>
+                    <div class="face back">
+                        <h2 class="name">Eng: Marwa Khaled</h2>
+                        <h2 class="age">Age: 24 Years</h2>
+                        <h2 class="adress">Adress: Egypt - Giza - Fysle-ST </h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="parent-of-cart" style="transition-delay: 0s;">
+                <div class="team-cart">
+                    <div class="face front">
+                        <img src="all-images/pexels-photo-8961394.webp" alt="">
+                    </div>
+                    <div class="face back">
+                        <h2 class="name">Eng: Nader mohamed nasser </h2>
+                        <h2 class="age">Age: 26 Years</h2>
+                        <h2 class="adress">Adress: Bani Mazar - Al Minya - Egypt </h2>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#141415" fill-opacity="1" d="M0,224L48,192C96,160,192,96,288,106.7C384,117,480,203,576,208C672,213,768,139,864,106.7C960,75,1056,85,1152,85.3C1248,85,1344,75,1392,69.3L1440,64L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+
+
+        <div class="bottom-circle-div circle-div" id="team">
+            <span class="circle"></span>
+        </div>
+    </div>
+
+    <!-- end taam section -->
+
+
+    <!-- start projects section -->
+
+    <div class="section images-section" data-class="section images-section" data-id="images" id="images">
+
+        <div class="top-circle-div circle-div" id="images">
+            <span class="circle"></span>
+        </div>
+        <div class="second top-circle-div circle-div" id="images">
+            <span class="circle"></span>
+        </div>
+
+        <div class="section-name">
+            <h2>Images</h2>
+            <p>Some Images From My Projects..</p>
+        </div>
+
+        <div class="container">
+
+            <div class="images-div">
+                <div class="img" style="--i:0; transition: margin var(--second-transition) , opacity var(--second-transition) , transform var(--main-transition);">
+                    <img src="all-images/img-2.jpg" alt="">
+                </div>
+                <div class="img" style="--i:.2s; transition: margin var(--second-transition) , opacity var(--second-transition) , transform var(--main-transition);">
+                    <img src="all-images/img-3.jpg" alt="">
+                </div>
+                <div class="img" style="--i:.4s; transition: margin var(--second-transition) , opacity var(--second-transition) , transform var(--main-transition);">
+                    <img src="all-images/img-4.jpg" alt="">
+                </div>
+                <div class="img" style="--i:.6s; transition: margin var(--second-transition) , opacity var(--second-transition) , transform var(--main-transition);">
+                    <img src="all-images/img-5.jpg" alt="">
+                </div>
+                <div class="img" style="--i:.8s; transition: margin var(--second-transition) , opacity var(--second-transition) , transform var(--main-transition);">
+                    <img src="all-images/img-6.jpg" alt="">
+                </div>
+
+
+            </div>
+
+            
+            <div class="images-div">
+                <div class="img" style="--i:0; transition: margin var(--second-transition) , opacity var(--second-transition) , transform var(--main-transition);">
+                    <img src="all-images/img-7.jpg" alt="">
+                </div>
+                <div class="img" style="--i:.2s; transition: margin var(--second-transition) , opacity var(--second-transition) , transform var(--main-transition);">
+                    <img src="all-images/img-8.jpg" alt="">
+                </div>
+                <div class="img" style="--i:.4s; transition: margin var(--second-transition) , opacity var(--second-transition) , transform var(--main-transition);">
+                    <img src="all-images/img-9.jpg" alt="">
+                </div>
+                <div class="img" style="--i:.6s; transition: margin var(--second-transition) , opacity var(--second-transition) , transform var(--main-transition);">
+                    <img src="all-images/img-10.jpg" alt="">
+                </div>
+                <div class="img" style="--i:.8s; transition: margin var(--second-transition) , opacity var(--second-transition) , transform var(--main-transition);">
+                    <img src="all-images/img-11.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+
+        <div class="bottom-circle-div circle-div" id="images">
+            <span class="circle"></span>
+        </div>
+    </div>
+
+    <!-- end projects section -->
+
+
+
+    <!-- start team section -->
+
+    <div class="section projects-section" data-class="section projects-section" data-id="projects" id="projects">
+
+
+
+        <div class="top-circle-div circle-div" id="projects">
+            <span class="circle"></span>
+        </div>
+        <div class="second top-circle-div circle-div" id="projects">
+            <span class="circle"></span>
+        </div>
+
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="white" fill-opacity="1" d="M0,192L30,181.3C60,171,120,149,180,170.7C240,192,300,256,360,272C420,288,480,256,540,250.7C600,245,660,267,720,256C780,245,840,203,900,176C960,149,1020,139,1080,149.3C1140,160,1200,192,1260,192C1320,192,1380,160,1410,144L1440,128L1440,0L1410,0C1380,0,1320,0,1260,0C1200,0,1140,0,1080,0C1020,0,960,0,900,0C840,0,780,0,720,0C660,0,600,0,540,0C480,0,420,0,360,0C300,0,240,0,180,0C120,0,60,0,30,0L0,0Z"></path></svg>
+
+        <div class="section-name">
+            <h2>Projects</h2>
+            <p>You Can See My Projects Here..</p>
+        </div>
+
+        <div class="container swiper">
+
+            <div class="parent-of-slides swiper-wrapper">
+
+                <div class="slide swiper-slide">
+
+                    <div class="project-div hotel-project">
+                        <img src="all-images/first-project/project-1.jpg" alt="">
+                        <div class="project-info">
+                            <h2 class="project-name">Hotel project Design</h2>
+                            <p>Second term project design 3rd Academic Architectural year . 
+                                Hotel project Design  ..
+                                Software used:</p>
+                                <ul>
+                                    <li>A O U T O C A D</li>
+                                    <li>R E V E T</li>
+                                    <li>L U M I O N</li>
+                                    <li>P H O T O S H O P</li>
+                                </ul>
+                        </div>
+                        <div class="show-demo-div">
+                            <a href="project-1.html">
+                                <h5>Demo</h5>
+                                <i class="fa-solid fa-eye"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="project-div social-and-service">
+                        <img src="all-images/second-project/project-2.jpg" alt="">
+                        <div class="project-info">
+                            <h2 class="project-name">Social And Service Center Design</h2>
+                            <p>Social and service center in Taha Hussein street
+                                Software used:</p>
+                            <ul>
+                                <li>A O U T O C A D</li>
+                                <li>R E V E T</li>
+                                <li>L U M I O N</li>
+                                <li>V R A Y</li>
+                                <li>P H O T O S H O P</li>
+                            </ul>
+                        </div>
+                        <div class="show-demo-div">
+                            <a href="project-2.html">
+                                <h5>Demo</h5>
+                                <i class="fa-solid fa-eye"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="project-div pre_graduation-project">
+                        <img src="all-images/third-project/project-3.jpg" alt="">
+                        <div class="project-info">
+                            <h2 class="project-name">Pre_ graduation Project Design</h2>
+                            <p>the bridge Center for preparing young leaders for the sustainability of the earth  ..
+                                Software used:</p>
+                                <ul>
+                                    <li>A O U T O C A D</li>
+                                    <li>R E V E T</li>
+                                    <li>L U M I O N</li>
+                                    <li>P H O T O S H O P</li>
+                                </ul>
+                        </div>
+                        <div class="show-demo-div">
+                            <a href="project-3.html">
+                                <h5>Demo</h5>
+                                <i class="fa-solid fa-eye"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+                <div class="slide swiper-slide">
+
+                    <div class="project-div living-and-dining">
+                        <img src="all-images/forth-project/project-4.jpg" alt="">
+                        <div class="project-info">
+                            <h2 class="project-name">Reception, Living And Dining Design</h2>
+                            <p>Reception, Living And Dining Design</p>
+                        </div>
+                        <div class="show-demo-div">
+                            <a href="project-4.html">
+                                <h5>Demo</h5>
+                                <i class="fa-solid fa-eye"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="project-div master-bedroom">
+                        <img src="all-images/fifth-project/project-5.jpg" alt="">
+                        <div class="project-info">
+                            <h2 class="project-name">Master Bedroom Design</h2>
+                        </div>
+                        <div class="show-demo-div">
+                            <a href="project-5.html">
+                                <h5>Demo</h5>
+                                <i class="fa-solid fa-eye"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="project-div living-and-kitchen">
+                        <img src="all-images/sixth-project/project-6.jpg" alt="">
+                        <div class="project-info">
+                            <h2 class="project-name">Living And kitchen Zone Design</h2>
+                            <p>Foundation work is underway and implementation phases are being completed .
+                                Wait for us soon</p>
+                        </div>
+                        <div class="show-demo-div">
+                            <a href="project-6.html">
+                                <h5>Demo</h5>
+                                <i class="fa-solid fa-eye"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+        </div>
+
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="white" fill-opacity="1" d="M0,192L30,181.3C60,171,120,149,180,170.7C240,192,300,256,360,272C420,288,480,256,540,250.7C600,245,660,267,720,256C780,245,840,203,900,176C960,149,1020,139,1080,149.3C1140,160,1200,192,1260,192C1320,192,1380,160,1410,144L1440,128L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path></svg>
+
+        
+        <div class="bottom-circle-div circle-div" id="projects">
+            <span class="circle"></span>
+        </div>
+
+        
+    </div>
+
+    <!-- end team section -->
+
+
+
+    <!-- start contact section -->
+
+
+    <div class="section contact-section" data-class="section contact-section" data-id="contact" id="contact">
+
+
+        <div class="top-circle-div circle-div" id="contact">
+            <span class="circle"></span>
+        </div>
+        <div class="second top-circle-div circle-div" id="contact">
+            <span class="circle"></span>
+        </div>
+
+        <div class="section-name">
+            <h2>Contact</h2>
+            <p>You Can Text Me Now..</p>
+        </div>
+
+
+
+        <div class="container">
+
+            <div class="contact-divs">
+                <div class="contact-div" style="--i:0">
+                    <a href="https://www.facebook.com/hazem.abdelhamid.5">
+                        <i class="fa-brands fa-facebook"></i>
+                        <h5>hazem.abdelhamid.5</h5>
+                    </a>
+                </div>
+
+                <div class="contact-div" style="--i:.3s">
+                    <a href="https://www.whatsapp.com" >
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <h5>+20 102 859 3988</h5>
+                    </a>
+                </div>
+
+                <div class="contact-div" style="--i:.6s">
+                    <a href="https://www.twitter.com">
+                        <i class="fa-brands fa-twitter"></i>
+                        <h5>hazem_abd_elhamid</h5>
+                    </a>
+                </div>
+
+                <div class="contact-div" style="--i:.9s">
+                    <a href="https://www.instagram.com/hazem_abd_elhamid/?fbclid=IwAR3nB7pxJObMxfWZoaHtz5z-SGQarimMCHs4-ZjxMJlivFsQABGdztuBxRA">
+                        <i class="fa-brands fa-instagram"></i>
+                        <h5>hazem_abd_elhamid</h5>
+                    </a>
+                </div>
+
+            </div>
+
+            <form action="" class="contact-form">
+                <div class="input-div" style="--i:0">
+                    <input type="text" name="" id="name-input">
+                    <span class="label">Username</span>
+                    <span class="first-border"></span>
+                    <span class="second-border"></span>
+                    <span class="third-border"></span>
+                    <span class="forth-border"></span>
+                </div>
+
+                <div class="input-div" style="--i:.3s">
+
+                    <input type="text" name="" id="phone-input">
+                    <span class="label">Phone</span>
+                    <span class="first-border"></span>
+                    <span class="second-border"></span>
+                    <span class="third-border"></span>
+                    <span class="forth-border"></span>
+                </div>
+
+                <div class="input-div" style="--i:.6s">
+                    <input type="email" name="" id="email-input" required>
+                    <span class="label">Email</span>
+                    <span class="first-border"></span>
+                    <span class="second-border"></span>
+                    <span class="third-border"></span>
+                    <span class="forth-border"></span>
+                </div>
+
+                <div class="input-div textarea" style="--i:.9s">
+                    <textarea name="" id=""></textarea>
+                    <span class="label">Your Text</span>
+                    <span class="first-border"></span>
+                    <span class="second-border"></span>
+                    <span class="third-border"></span>
+                    <span class="forth-border"></span>
+                </div>
+
+                <div class="submit-and-reset-div" style="--i:1.2s">
+                    <input type="submit" name="" id="submit-input" style="--i:1.2s" value="Send">
+                    <input type="reset" name="" id="reset-input" style="--i:1.5s">
+                </div>
+            </form>
+
+
+        </div>
+
+
+        <div class="bottom-circle-div circle-div" id="contact">
+            <span class="circle"></span>
+        </div>
+
+
+    </div>
+
+
+    <!-- end contact section -->
+
+
+
+
+    <!-- start footer -->
+
+
+    <div class="footer">
+        <h5>all rights reserved <span>&copy;</span> <span>2023</span></h5>
+
+        <div class="footer-icons">
+            <a href="https://www.facebook.com/hazem.abdelhamid.5">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="https://www.whatsapp.com">
+                <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <a href="https://www.instagram.com/hazem_abd_elhamid/?fbclid=IwAR3nB7pxJObMxfWZoaHtz5z-SGQarimMCHs4-ZjxMJlivFsQABGdztuBxRA">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+        </div>
+    </div>
+    <!-- end footer -->
+
+
+
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script>
+
+        var typed = new Typed('.words' , {
+            strings : ["An Architect" , "A Designer"],
+            typeSpeed : 100,
+            backSpeed : 100,
+            loop : true
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <script>
+        const swiper = new Swiper('.swiper', {
+        // Optional parameters
+        loop: true,
+
+        // If we need pagination
+        pagination: {
+            el: '.swiper-pagination',
+        },
+
+        // Navigation arrows
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+
+        });
+    </script>
+
+</body>
+</html>
